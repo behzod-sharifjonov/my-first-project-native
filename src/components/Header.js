@@ -6,8 +6,7 @@ const Header = ({ title }) => {
   return (
     <View style={styles.header}>
       <Text style={styles.title}>{title}</Text>
-      <Text style={styles.title}>{title}</Text>
-      <Text style={styles.title}>{title}</Text>
+      <Text>Hello world</Text>
     </View>
   );
 };
@@ -17,7 +16,7 @@ const styles = StyleSheet.create({
     height: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#007BFF',
+    top:0,
   },
   title: {
     color: '#fff',
